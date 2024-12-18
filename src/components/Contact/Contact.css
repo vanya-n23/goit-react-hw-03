@@ -17,3 +17,8 @@
     font-size: 18px;
     border-radius: 5px;
 }
+
+.con-btn:hover {
+    background-color: gray;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
