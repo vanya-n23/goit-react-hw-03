@@ -1,0 +1,36 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.field-form {
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.contact-form button {
+    background-color: lightgray;
+    border: none;
+    stroke: black;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+}
